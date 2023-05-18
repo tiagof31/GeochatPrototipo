@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="splashScreenVM" type="com.tiagosapplication.app.modules.splashscreen.data.viewmodel.SplashScreenVM"/>
+    </data>
+    <LinearLayout android:id="@+id/linearSplashscreen"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylewhite_A700">
+        <TextView android:ellipsize="end" android:gravity="start"
+            android:id="@+id/txtGeochat"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_32pxh"
+            android:layout_marginStart="@dimen/_32pxh"
+            android:layout_marginTop="@dimen/_189pxv"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:text="@{splashScreenVM.splashScreenModel.txtGeochat}"
+            style="@style/txtJetBrainsMonoromanregular48" tools:text="@string/lbl_geochat"/>
+        <View android:background="@color/black_900"
+            android:id="@+id/lineArrowOne"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_2pxv"
+            android:layout_marginEnd="@dimen/_32pxh"
+            android:layout_marginStart="@dimen/_32pxh" android:layout_width="@dimen/_325pxh"/>
+        <LinearLayout android:gravity="start"
+            android:id="@+id/linearLoginCred"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_32pxh"
+            android:layout_marginStart="@dimen/_32pxh"
+            android:layout_marginTop="@dimen/_54pxv"
+            android:layout_width="match_parent"
+            android:orientation="vertical" style="@style/groupStylecornerRadius">
+            <EditText
+                android:background="@drawable/rectangle_bg_gray_500_radius_1"
+                android:ellipsize="end"
+                android:hint="@string/lbl_usu_rio"
+                android:id="@+id/etUserCred" android:inputType="text"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:paddingBottom="@dimen/_6pxv"
+                android:paddingEnd="@dimen/_30pxh"
+                android:paddingStart="@dimen/_10pxh"
+                android:paddingTop="@dimen/_8pxv"
+                android:singleLine="true"
+                android:text="@={splashScreenVM.splashScreenModel.etUserCredValue}"
+                android:textColorHint="@color/black_900_7f"
+                style="@style/etSolidRounded" tools:ignore="Autofill"/>
+            <EditText
+                android:background="@drawable/rectangle_bg_gray_500_radius_1"
+                android:ellipsize="end" android:hint="@string/lbl_senha"
+                android:id="@+id/etPasswordCred"
+                android:inputType="text"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_27pxv"
+                android:layout_width="match_parent"
+                android:paddingBottom="@dimen/_5pxv"
+                android:paddingEnd="@dimen/_30pxh"
+                android:paddingStart="@dimen/_10pxh"
+                android:paddingTop="@dimen/_9pxv"
+                android:singleLine="true"
+                android:text="@={splashScreenVM.splashScreenModel.etPasswordCredValue}"
+                android:textColorHint="@color/black_900_7f"
+                style="@style/etSolidRounded" tools:ignore="Autofill"/>
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatButton
+            android:ellipsize="end" android:gravity="center"
+            android:id="@+id/btnLogin"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_61pxv"
+            android:layout_marginEnd="@dimen/_32pxh"
+            android:layout_marginStart="@dimen/_32pxh"
+            android:layout_marginTop="@dimen/_57pxv"
+            android:layout_width="@dimen/_180pxh"
+            android:paddingBottom="@dimen/_14pxv"
+            android:paddingEnd="@dimen/_30pxh"
+            android:paddingStart="@dimen/_30pxh"
+            android:paddingTop="@dimen/_14pxv" android:singleLine="true"
+            android:text="@string/lbl_login" android:textAllCaps="false"
+            style="@style/btnSolidRounded" tools:text="@string/lbl_login"/>
+        <TextView android:ellipsize="end"
+            android:id="@+id/txtForgotLogin"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:layout_marginEnd="@dimen/_32pxh"
+            android:layout_marginStart="@dimen/_32pxh"
+            android:layout_marginTop="@dimen/_52pxv"
+            android:layout_width="wrap_content"
+            android:singleLine="true"
+            android:text="@{splashScreenVM.splashScreenModel.txtForgotLogin}"
+            style="@style/txtJetBrainsMonoromanregular20_2"
+            textUnderline="true" tools:text="@string/lbl_esqueci_a_senha"/>
+    </LinearLayout>
+</layout>

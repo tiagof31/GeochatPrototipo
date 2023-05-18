@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">tiago_s_application</string>
+    <string name="loading">Loading…</string>
+    <string name="no_internet_connection">No internet connection!</string>
+<string name="msg_sendo_bem_since">sendo bem sincero...</string>
+<string name="lbl_89">89</string>
+<string name="lbl_rio_hollis">Rio Hollis</string>
+<string name="msg_lasquei_a_bios">lasquei a bios...</string>
+<string name="msg_como_diminui_a">como diminui a...</string>
+<string name="msg_se_voc_puder">se você puder...</string>
+<string name="lbl_futebol">#futebol</string>
+<string name="msg_lovecraft_desc">Lovecraft? desconheço...</string>
+<string name="msg_joseph_na_verda">Joseph na verdade é...</string>
+<string name="lbl_login">Login</string>
+<string name="lbl_palmer_briar">Palmer Briar</string>
+<string name="lbl_justice_atlas">Justice Atlas</string>
+<string name="lbl_sky_kobi">Sky Kobi</string>
+<string name="lbl_academia">#academia</string>
+<string name="lbl_tags">Tags           </string>
+<string name="lbl_senha">Senha</string>
+<string name="lbl_zephyer_lennox">Zephyer Lennox</string>
+<string name="msg_dane_se_fa_o_o">dane-se, faço outro...</string>
+<string name="lbl_12">12</string>
+<string name="lbl_13">13</string>
+<string name="lbl_16">16</string>
+<string name="lbl_tru_finnley">Tru Finnley</string>
+<string name="lbl_desativado">Desativado</string>
+<string name="lbl_geochat">Geochat</string>
+<string name="lbl_tecnologia">#tecnologia</string>
+<string name="lbl_anime">#anime</string>
+<string name="lbl_shay_bowie">Shay Bowie</string>
+<string name="lbl_esqueci_a_senha">Esqueci a senha</string>
+<string name="msg_dist_ncia">Distância      5km</string>
+<string name="lbl_pesquisar">Pesquisar...</string>
+<string name="lbl_usu_rio">Usuário</string>
+</resources>
